@@ -4,15 +4,32 @@ html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
 form, input, div {
-  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
-  text-align: center;
   margin: 0;
   padding: 0;
 }
 
+
+body {
+  margin: 0;
+  font-family: "Avenir Next",  'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
 header {
   background-color:#ffee00;
   height:240px;
+  text-align:center;
 }
 
 h1 {
@@ -31,8 +48,8 @@ span {
 
 p {
   padding-bottom:12px;
+    text-align:center;
 }
-
 
 h2 {
   font-size:30px;
@@ -42,17 +59,22 @@ h2 {
 .what-heading {
   font-size:30px;
   padding-top:80px;
+  text-align:center;
 }
 
 .what {
   background-color: #f7f7f7;
   height:410px;
-  margin-bottom:190px;
 }
 
 .gif-hello {
-  padding-top:80px;
-  height:200px;
+  height:50px;
+}
+
+.corona-content {
+  padding-top:20px;
+  padding-bottom:20px;
+  text-align:center;
 }
 
 p a .how {
@@ -61,6 +83,24 @@ p a .how {
 
 .party-heading {
   padding-top:100px;
+  padding-bottom:60px;
+}
+
+.party {
+  text-align: center;
+  background-color:#a5ce39;
+}
+
+.attend {
+  float:left;
+  width: 33%;
+}
+
+.attend-image {
+  height:340px;
+  padding-right:20px;
+  padding-left:20px;
+  padding-bottom:20px;
 }
 
 .or {
@@ -69,14 +109,13 @@ p a .how {
 }
 
 .qrcode {
-  height:200px;
+  height:100px;
 }
-
 
 .buddy {
   background-color: #f7f7f7;
-  height:200px;
-  margin-bottom:80px;
+  margin-bottom:50px;
+  text-align:center;
 }
 
 .buddy-heading {
@@ -92,11 +131,3 @@ p a .how {
 footer p {
   font-size:10px;
 }
-
-@media all and (max-width: 670px) {
-  h1 {
-    font-size:60px;
-    padding-top:50px;}
-  }
-
-  }
