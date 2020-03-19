@@ -4,4 +4,16 @@
     padding-top:50px;
   }
 
+  .attends-container {
+    width:100%;
   }
+
+  }
+
+  @media all and (max-width: 1000px) {
+    h1 {
+      font-size:60px;
+      padding-top:50px;
+    }
+
+    }

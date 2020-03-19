@@ -5,9 +5,15 @@ ul, ol, li,
 h1, h2, h3, h4, h5, h6, p,
 form, input, div {
   margin: 0;
-  padding: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  overflow:hidden;
+}
 
 body {
   margin: 0;
@@ -25,7 +31,32 @@ a {
   margin: 0 auto;
 }
 
+span {
+  color:#ff4a4a;
+}
 
+p {
+  padding-bottom:12px;
+  text-align:center;
+}
+
+h2 {
+  font-size:30px;
+  padding-bottom:20px;
+}
+
+.ruby {
+  padding-top:80px;
+  font-size:10px;
+  letter-spacing:0.3em;
+  text-align:center;
+}
+
+.what-content .ruby {
+  font-size:10px;
+}
+
+/*header*/
 header {
   background-color:#ffee00;
   height:240px;
@@ -37,37 +68,25 @@ h1 {
   font-size:80px;
 }
 
-span {
-  color:#ff4a4a;
-}
-
-.content {
-  padding-bottom:90px;
-  font-size:13px;
-}
-
-p {
-  padding-bottom:12px;
-    text-align:center;
-}
-
-h2 {
-  font-size:30px;
-  padding-bottom:20px;
-}
-
+/*what*/
 .what-heading {
-  font-size:30px;
-  padding-top:80px;
   text-align:center;
+  padding-bottom:40px;
 }
 
-.what {
+.what-content {
   background-color: #f7f7f7;
-  height:410px;
+  height:600px;
 }
 
-.gif-hello {
+.what-content p {
+  font-size:14px;
+}
+/*what*/
+
+
+/*corona*/
+.gif {
   height:50px;
 }
 
@@ -76,50 +95,109 @@ h2 {
   padding-bottom:20px;
   text-align:center;
 }
+/*corona*/
 
-p a .how {
-  padding-bottom:50px;
-}
 
-.party-heading {
-  padding-top:100px;
-  padding-bottom:60px;
-}
 
-.party {
+/*party*/
+.party-content {
   text-align: center;
   background-color:#a5ce39;
 }
 
-.attend {
-  float:left;
-  width: 33%;
+.party-heading {
+  padding-bottom:40px;
+}
+
+.attends {
+  display:inline-block;
+  text-align:center;
+}
+
+.attends-container {
+   background-color:#f7f7f7;
+   height:250px;
+   width:210px;
+   float:left;
+   text-align:center;
+   border-radius:15px;
+   margin-right:30px;
+   margin-bottom:30px;
+}
+
+.attends-title-1 {
+  padding-top:45px;
+  padding-bottom:30px;
+  font-size:12px;
+  font-family:sans-serif;
+}
+
+.attends-title {
+  padding-top:45px;
+  padding-bottom:25px;
+  font-size:12px;
+  font-family:sans-serif;
+}
+
+.how-title-1 {
+  font-size:10px;
+  line-height:2.1em;
+  padding-bottom:30px;
+}
+
+.how-title-2 {
+  font-size:10px;
+  line-height:2.1em;
+  padding-top:10px;
+  padding-bottom:30px;
+}
+
+.how-title-3 {
+  font-size:10px;
+  line-height:1em;
+}
+
+.how-1 {
+  font-size:12px;
+}
+
+.how-2 {
+  font-weight: bolder;
+  font-size:10px;
+  padding:12px 15px;
+  background-color:#ff4411;
+  color:white;
+  border-radius:10px;
+  box-shadow: 0 2px #ffee00;
+}
+
+.how-3 {
+  height:120px;
 }
 
 .attend-image {
-  height:340px;
+  height:330px;
   padding-right:20px;
   padding-left:20px;
-  padding-bottom:20px;
+  padding-bottom:50px;
 }
 
-.or {
-  font-weight:bold;
-  color:#ff4a4a;
-}
 
-.qrcode {
-  height:100px;
+.space {
+  padding-bottom:25px;
 }
+/*party*/
 
-.buddy {
+
+/*buddy*/
+.buddy-content {
   background-color: #f7f7f7;
   margin-bottom:50px;
   text-align:center;
 }
 
 .buddy-heading {
-  padding-top:80px;
+  text-align:center;
 }
 
 .logo {
@@ -127,7 +205,11 @@ p a .how {
   padding-left:20px;
   height:120px;
 }
+/*buddy*/
 
+
+/*footer*/
 footer p {
   font-size:10px;
 }
+/*footer*/
