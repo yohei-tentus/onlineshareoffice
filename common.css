@@ -76,13 +76,44 @@ h1 {
 
 .what-content {
   background-color: #f7f7f7;
-  height:600px;
 }
 
 .what-content p {
   font-size:14px;
 }
 /*what*/
+
+/* event */
+.event-content {
+  background-color: #29a9e6;
+  text-align:center;
+}
+
+.event-ruby {
+  color:white;
+}
+
+.event-heading {
+  color:white;
+  text-align:center;
+}
+
+.event-text {
+  color:white;
+  line-height:2em;
+  letter-spacing:0.3em;
+  font-size:13px;
+}
+
+.event-img {
+  height:400px;
+  text-align:center;
+  padding-bottom:50px;
+}
+/* event */
+.calendar {
+  padding-bottom:50px;
+}
 
 
 /*corona*/
