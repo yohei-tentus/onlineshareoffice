@@ -11,10 +11,6 @@ form, input, div {
   box-sizing: border-box;
 }
 
-.wrap {
-  overflow:hidden;
-}
-
 body {
   margin: 0;
   font-family: "Avenir Next",  'Hiragino Kaku Gothic ProN W3', sans-serif;
@@ -36,7 +32,7 @@ span {
 }
 
 p {
-  padding-bottom:12px;
+  padding-bottom:13px;
   text-align:center;
 }
 
@@ -52,68 +48,55 @@ h2 {
   text-align:center;
 }
 
-.what-content .ruby {
-  font-size:10px;
-}
 
 /*header*/
 header {
   background-color:#ffee00;
-  height:240px;
   text-align:center;
 }
 
 h1 {
   padding-top:70px;
   font-size:80px;
+  padding-bottom:60px;
 }
 
 /*what*/
-.what-heading {
-  text-align:center;
-  padding-bottom:40px;
-}
-
 .what-content {
   background-color: #f7f7f7;
 }
 
-.what-content p {
-  font-size:14px;
+.what-heading {
+  text-align:center;
+  padding-bottom:30px;
 }
-/*what*/
 
-/* event */
+.what-content p {
+  font-size:15px;
+}
+
+/*what end*/
+
+
+/* event start*/
 .event-content {
   background-color: #29a9e6;
   text-align:center;
-}
-
-.event-ruby {
   color:white;
-}
-
-.event-heading {
-  color:white;
-  text-align:center;
 }
 
 .event-text {
-  color:white;
   line-height:2em;
   letter-spacing:0.3em;
   font-size:13px;
 }
 
-.event-img {
-  height:400px;
-  text-align:center;
-  padding-bottom:50px;
-}
-/* event */
 .calendar {
   padding-bottom:50px;
 }
+
+/* event end */
+
 
 
 /*corona*/
@@ -126,8 +109,11 @@ h1 {
   padding-bottom:20px;
   text-align:center;
 }
-/*corona*/
 
+.corona-text {
+  font-size:12px;
+}
+/*corona*/
 
 
 /*party*/
@@ -148,43 +134,43 @@ h1 {
 .attends-container {
    background-color:#f7f7f7;
    height:250px;
-   width:210px;
+   width:250px;
    float:left;
    text-align:center;
    border-radius:15px;
-   margin-right:30px;
+   margin:0 25px;
    margin-bottom:30px;
 }
 
 .attends-title-1 {
   padding-top:45px;
   padding-bottom:30px;
-  font-size:12px;
+  font-size:14px;
   font-family:sans-serif;
 }
 
 .attends-title {
   padding-top:45px;
-  padding-bottom:25px;
-  font-size:12px;
+  padding-bottom:30px;
+  font-size:14px;
   font-family:sans-serif;
 }
 
 .how-title-1 {
-  font-size:10px;
+  font-size:12px;
   line-height:2.1em;
   padding-bottom:30px;
 }
 
 .how-title-2 {
-  font-size:10px;
+  font-size:12px;
   line-height:2.1em;
   padding-top:10px;
   padding-bottom:30px;
 }
 
 .how-title-3 {
-  font-size:10px;
+  font-size:12px;
   line-height:1em;
 }
 
