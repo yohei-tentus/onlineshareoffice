@@ -61,12 +61,30 @@
 			<div class="container">
 				<h2 class="event-ruby ruby">イベント告知</h2>
 				<h2 class="event-heading">Time Table<span>.</span></h2>
-				<p class="event-detail">24時間のオンラインシェアオフィスで気になるイベントに参加してみましょう！
 				<div class="calendar">
 					<iframe class="google-calender" src="https://calendar.google.com/calendar/embed?height=400&amp;wkst=2&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FTokyo&amp;src=dGVudHVzLmpwX3JxNTIyNmo2dG90c25rZWhkNnJiOW0wZ21jQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23AD1457&amp;showTitle=0&amp;showTz=0&amp;showPrint=0&amp;showNav=1&amp;showDate=0&amp;mode=MONTH&amp;showTabs=1&amp;title=Online%20Share%20Office&#39;s%20%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88&amp;showCalendars=1"
 					style="border:solid 1px #777" width="800" height="400" frameborder="0" scrolling="no"></iframe>
-				</div>
+					<p class="event-detail">下記のボタンをクリックしてOnline Share Officeのカレンダーを追加してイベントを見逃さない！</p>
+					<a class="calender-button" href="https://calendar.google.com/calendar?cid=dGVudHVzLmpwX3JxNTIyNmo2dG90c25rZWhkNnJiOW0wZ21jQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20" target="_blank">カレンダーを追加</a>
+					<p class="event-detail">オンラインシェアオフィスを利用してイベントを開催したい方は、下記のメールアドレスに招待をお願いいたします！</p>
+					<input id="copyTarget" type="text" value="tentus.jp_rq5226j6totsnkehd6rb9m0gmc@group.calendar.google.com" readonly>
+			    <button onclick="copyToClipboard()">Copy text</button>
+			    <script>
+			        function copyToClipboard() {
+			            // コピー対象をJavaScript上で変数として定義する
+			            var copyTarget = document.getElementById("copyTarget");
 
+			            // コピー対象のテキストを選択する
+			            copyTarget.select();
+
+			            // 選択しているテキストをクリップボードにコピーする
+			            document.execCommand("Copy");
+
+			            // コピーをお知らせする
+			            alert("コピーできました！ : " + copyTarget.value);
+			        }
+			    </script>
+				</div>
 			</div>
 		</div>
 
@@ -127,9 +145,9 @@
 
 		<div class="github-content">
 			<div class="container">
-				<h2 class="github-ruby">自社ロゴを追加しよう</h2>
-				<h2 class="github-heading">GitHub<span class="github-span">.</span></h2>
-				<p>Coming soon.</p>
+				<h2 class="github-ruby">皆さんでページを素敵に！<br>会社のロゴもガンガン追加しよう！</h2>
+				<h2 class="github-heading">Source Code<span class="github-span">.</span></h2>
+				<p class="github-text">当サイトのソースコードはMITライセンスで公開されており、誰でも自由に利用することができます。<br>詳しくは、<a href="https://github.com/yohei-tentus/onlineshareoffice" target="_blank">GitHub リポジトリ</a> をご確認ください。</p>
 				<div class="space"></div>
 			</div>
 		</div>
