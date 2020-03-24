@@ -1,6 +1,6 @@
 @media screen and (max-width: 670px) {
   h1 {
-    font-size:60px;
+    font-size:50px;
     padding-top:50px;
   }
 
@@ -10,10 +10,14 @@
     clear: both;
   }
 
-  iframe {
-    width:450px;
+.google-calender {
+    width:300px;
     height:400px;
   }
+
+.event-detail {
+  font-size:12px;
+}
 
   .what-text p {
     font-size:12px;

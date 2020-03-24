@@ -85,10 +85,10 @@ h1 {
   color:white;
 }
 
-.event-text {
+.event-detail {
   line-height:2em;
-  letter-spacing:0.3em;
   font-size:13px;
+  padding-bottom:20px;
 }
 
 .calendar {
@@ -244,14 +244,6 @@ h1 {
 .share-content {
   text-align:center;
   padding-bottom:20px;
-}
-
-.facebook-share-button {
-  margin:0 10px;
-}
-
-.twitter-share-button {
-  margin:0 10px;
 }
 
 
