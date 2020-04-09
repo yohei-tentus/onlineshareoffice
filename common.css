@@ -56,9 +56,32 @@ header {
 }
 
 h1 {
-  padding-top:70px;
+  padding-top:80px;
   font-size:80px;
-  padding-bottom:60px;
+  padding-bottom:30px;
+}
+
+.top {
+  padding-bottom:170px;
+}
+
+.top-image {
+  height:150px;
+}
+
+.top-image-wrapper {
+  float:left;
+  width:25%;
+}
+
+.top-images {
+  padding-bottom:50px;
+  padding-right:150px;
+  padding-left:150px;
+}
+
+.top-image-text {
+  font-size:12px;
 }
 
 /*what*/
@@ -253,7 +276,7 @@ button {
 }
 
 .github-ruby {
-  padding-top:80px;
+  padding-top:70px;
   font-size:10px;
   letter-spacing:0.3em;
   text-align:center;
@@ -269,6 +292,7 @@ button {
 
 .github-text {
   padding-bottom:20px;
+  font-size:14px;
 }
 
 /*share*/

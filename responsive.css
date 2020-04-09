@@ -1,7 +1,6 @@
 @media screen and (max-width: 670px) {
   h1 {
-    font-size:50px;
-    padding-top:50px;
+    font-size:40px;
   }
 
   .attends-container {
@@ -11,37 +10,58 @@
   }
 
 .google-calender {
-    width:345px;
-    height:400px;
+    width:95%;
   }
 
 .event-detail {
-  font-size:12px;
+  font-size:10px;
 }
 
   .what-text p {
-    font-size:12px;
+    font-size:10px;
   }
 
   .github-text {
-    font-size:12px;
+    font-size:10px;
   }
 
   .calender-id {
     font-size:10px;
   }
 
+  .logo {
+    height:100px;
+  }
+
+  .top-image{
+    height:90px;
+  }
+
+  .top-image-wrapper {
+    float:left;
+    width:50%;
+  }
+
+  .top-images {
+    padding-bottom:120px;
+    padding-right:40px;
+    padding-left:40px;
+  }
+  .top-image-text {
+    font-size:10px;
+  }
+
   }
 
 @media screen and (max-width: 1000px) {
-  h1 {
-      font-size:60px;
-      padding-top:50px;
-    }
 
   .attends-container {
       margin-bottom:15px;
       clear: both;
     }
+
+    .google-calender {
+        width:90%;
+      }
 
 }
