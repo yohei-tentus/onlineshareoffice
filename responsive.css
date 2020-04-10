@@ -1,4 +1,4 @@
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 678px) {
   h1 {
     font-size:40px;
   }
@@ -34,34 +34,68 @@
   }
 
   .top-image{
-    height:90px;
+    height:100px;
   }
 
   .top-image-wrapper {
-    float:left;
     width:50%;
+
   }
 
   .top-images {
     padding-bottom:120px;
-    padding-right:40px;
-    padding-left:40px;
+    padding-right:0px;
+    padding-left:0px;
+    margin-left:35px;
+    margin-right:35px;
   }
+
   .top-image-text {
     font-size:10px;
   }
 
-  }
-
-@media screen and (max-width: 1000px) {
-
   .attends-container {
       margin-bottom:15px;
-      clear: both;
+      width:210px;
+      height:230px;
     }
 
-    .google-calender {
-        width:90%;
-      }
+ .attends-title {
+   font-size:12px;
+   padding-top:40px;
+   padding-bottom:20px;
+ }
+
+.how-title-1  {
+  font-size:10px;
+}
+.how-1 {
+  font-size:10px;
+}
+
+.how-title-2  {
+  font-size:10px;
+}
+.how-title-3 {
+  font-size:10px;
+}
+  }
+
+@media screen and (min-width:768px) and ( max-width:1000px) {
+  .google-calender {
+      width:95%;
+    }
+
+    .attends-container {
+      width:220px;
+      margin:0 10px;
+    }
+
+  .top-images {
+    padding-right:0px;
+    padding-left:0px;
+    margin-left:25px;
+    margin-right:25px;
+  }
 
 }
